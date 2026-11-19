@@ -1,0 +1,164 @@
+<!-- ===== HERO ===== -->
+<header class="bg-dark text-light py-5">
+  <div class="container text-center py-4">
+    <h1 class="display-5 fw-bold mb-3">Les conférences à ne pas manquer</h1>
+    <p class="lead text-secondary mb-4">
+      Découvrez les prochains événements tech, data et innovation en Tunisie et réservez votre place.
+    </p>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="input-group input-group-lg">
+          <input type="search" class="form-control" placeholder="Rechercher une conférence, une ville..." aria-label="Rechercher">
+          <button class="btn btn-primary" type="button">Rechercher</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== LISTE DES CONFÉRENCES ===== -->
+<main class="container py-5">
+
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-3">
+    <div>
+      <h2 class="h3 fw-bold mb-1">Prochaines conférences</h2>
+      <p class="text-body-secondary mb-0">6 conférences disponibles</p>
+    </div>
+    <select class="form-select w-auto" aria-label="Trier les conférences">
+      <option selected>Trier par date</option>
+      <option>Trier par places disponibles</option>
+      <option>Trier par titre</option>
+    </select>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    <!-- Conférence 1 -->
+    <div class="col">
+      <article class="card h-100 border-0 shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/seed/conf1/640/360" class="card-img-top" alt="Conférence Data Summit">
+        <div class="card-body d-flex flex-column">
+          <span class="badge text-bg-success align-self-start mb-2">120 places disponibles</span>
+          <h3 class="h5 card-title fw-bold">Data Summit Tunisie</h3>
+          <ul class="list-unstyled text-body-secondary small mb-3">
+            <li>📍 Palais des Congrès, Tunis</li>
+            <li>📅 <time datetime="2026-12-05">5 décembre 2026</time></li>
+          </ul>
+          <p class="card-text text-body-secondary">
+            Une journée dédiée au Big Data, à l'analytique et à l'intelligence artificielle avec des experts du secteur.
+          </p>
+          <a href="#" class="btn btn-primary mt-auto">Réserver ma place</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Conférence 2 -->
+    <div class="col">
+      <article class="card h-100 border-0 shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/seed/conf2/640/360" class="card-img-top" alt="Conférence Cloud & DevOps">
+        <div class="card-body d-flex flex-column">
+          <span class="badge text-bg-warning align-self-start mb-2">Plus que 12 places</span>
+          <h3 class="h5 card-title fw-bold">Cloud &amp; DevOps Day</h3>
+          <ul class="list-unstyled text-body-secondary small mb-3">
+            <li>📍 Technopole El Ghazala, Ariana</li>
+            <li>📅 <time datetime="2026-12-12">12 décembre 2026</time></li>
+          </ul>
+          <p class="card-text text-body-secondary">
+            Ateliers pratiques sur Docker, Kubernetes et les pipelines CI/CD pour automatiser vos déploiements.
+          </p>
+          <a href="#" class="btn btn-primary mt-auto">Réserver ma place</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Conférence 3 -->
+    <div class="col">
+      <article class="card h-100 border-0 shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/seed/conf3/640/360" class="card-img-top" alt="Conférence IA">
+        <div class="card-body d-flex flex-column">
+          <span class="badge text-bg-success align-self-start mb-2">85 places disponibles</span>
+          <h3 class="h5 card-title fw-bold">AI &amp; Innovation Forum</h3>
+          <ul class="list-unstyled text-body-secondary small mb-3">
+            <li>📍 Cité de la Culture, Tunis</li>
+            <li>📅 <time datetime="2027-01-16">16 janvier 2027</time></li>
+          </ul>
+          <p class="card-text text-body-secondary">
+            Intelligence artificielle générative, éthique et cas d'usage concrets en entreprise.
+          </p>
+          <a href="#" class="btn btn-primary mt-auto">Réserver ma place</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Conférence 4 -->
+    <div class="col">
+      <article class="card h-100 border-0 shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/seed/conf4/640/360" class="card-img-top" alt="Conférence Cybersécurité">
+        <div class="card-body d-flex flex-column">
+          <span class="badge text-bg-danger align-self-start mb-2">Complet</span>
+          <h3 class="h5 card-title fw-bold">Cybersecurity Conference</h3>
+          <ul class="list-unstyled text-body-secondary small mb-3">
+            <li>📍 Hôtel Laico, Tunis</li>
+            <li>📅 <time datetime="2027-01-23">23 janvier 2027</time></li>
+          </ul>
+          <p class="card-text text-body-secondary">
+            Menaces actuelles, bonnes pratiques et retours d'expérience de RSSI et d'experts en sécurité.
+          </p>
+          <button class="btn btn-secondary mt-auto" disabled>Complet</button>
+        </div>
+      </article>
+    </div>
+
+    <!-- Conférence 5 -->
+    <div class="col">
+      <article class="card h-100 border-0 shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/seed/conf5/640/360" class="card-img-top" alt="Conférence E-commerce">
+        <div class="card-body d-flex flex-column">
+          <span class="badge text-bg-success align-self-start mb-2">200 places disponibles</span>
+          <h3 class="h5 card-title fw-bold">E-Commerce Expo</h3>
+          <ul class="list-unstyled text-body-secondary small mb-3">
+            <li>📍 Parc des Expositions, Sfax</li>
+            <li>📅 <time datetime="2027-02-06">6 février 2027</time></li>
+          </ul>
+          <p class="card-text text-body-secondary">
+            Stratégies de vente en ligne, marketing digital, SEO et analyse des données clients.
+          </p>
+          <a href="#" class="btn btn-primary mt-auto">Réserver ma place</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Conférence 6 -->
+    <div class="col">
+      <article class="card h-100 border-0 shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/seed/conf6/640/360" class="card-img-top" alt="Conférence Web">
+        <div class="card-body d-flex flex-column">
+          <span class="badge text-bg-warning align-self-start mb-2">Plus que 5 places</span>
+          <h3 class="h5 card-title fw-bold">Web &amp; Mobile Meetup</h3>
+          <ul class="list-unstyled text-body-secondary small mb-3">
+            <li>📍 Centre Urbain Nord, Tunis</li>
+            <li>📅 <time datetime="2027-02-20">20 février 2027</time></li>
+          </ul>
+          <p class="card-text text-body-secondary">
+            Angular, React et développement mobile : tendances, bonnes pratiques et démonstrations en direct.
+          </p>
+          <a href="#" class="btn btn-primary mt-auto">Réserver ma place</a>
+        </div>
+      </article>
+    </div>
+
+  </div>
+
+  <!-- Pagination -->
+  <nav class="mt-5" aria-label="Pagination des conférences">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled"><a class="page-link" href="#">Précédent</a></li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+    </ul>
+  </nav>
+
+</main>
